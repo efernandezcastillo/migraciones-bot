@@ -1,0 +1,47 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "large",
+            "weight": "bolder",
+            "text": "Información sobre Expedición de Certificado Migratoria",
+            "wrap": true,
+            "horizontalAlignment": "center",
+            "color": "good"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Información Certificado Migratoria para mayor de edad",
+            "wrap": true,
+            "spacing": "Small",
+            "separator": true,
+            "size": "Medium",
+            "weight": "Bolder",
+            "color": "Dark"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                    "title": "•",
+                    "value": "Recibo de pago al Banco de la Nación por derecho de trámite (S/. 98.50), que consigne número de DNI del beneficiario."
+                },
+                {
+                    "title": "•",
+                    "value": "Presentar DNI con las respectivas constancias de sufragio. Asimismo, no deberá contar con ninguna multa electoral pendiente de pago."
+                },
+                {
+                    "title": "•",
+                    "value": "Exhibición de la constancia de cita (en formato digital o impresa)."
+                },
+                {
+                    "title": "•",
+                    "value": "Se requiere presencia física del beneficiario."
+                }
+            ]
+        }
+    ]
+}

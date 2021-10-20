@@ -1,0 +1,109 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://sel.migraciones.gob.pe/servmig-valreg/Images/bann2.png",
+                            "horizontalAlignment": "Center",
+                            "size": "Stretch"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Para una mejor atención, ingrese sus datos personales.",
+                            "weight": "Bolder",
+                            "size": "Medium",
+                            "color": "Accent",
+                            "horizontalAlignment": "Left",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Nombre Completo (*)",
+                            "wrap": true,
+                            "spacing": "Medium"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "myName",
+                            "placeholder": "Juan Perez Matinez"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Seleccione tipo de documento",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.ChoiceSet",
+                            "id": "tipoDoc",
+                            "value": "dni",
+                            "choices": [
+                                {
+                                    "title": "DNI",
+                                    "value": "dni"
+                                },
+                                {
+                                    "title": "Pasaporte",
+                                    "value": "pasaporte"
+                                },
+                                {
+                                    "title": "Cédula",
+                                    "value": "cedula"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Documento de Identidad (*)",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "myDocument",
+                            "placeholder": "xxxxxxxx"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Nacionalidad (*)"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "myNationality",
+                            "placeholder": "Peruano"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Correo electrónico (*)",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "myEmail",
+                            "placeholder": "example@email.com",
+                            "style": "Email"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "color": "Warning",
+            "text": "(*) Campos requeridos"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Enviar"
+        }
+    ]
+}

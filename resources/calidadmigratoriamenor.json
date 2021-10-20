@@ -1,0 +1,55 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "large",
+            "weight": "bolder",
+            "text": "Información sobre Expedición de Calidad Migratoria",
+            "wrap": true,
+            "horizontalAlignment": "center",
+            "color": "good"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Información Calidad Migratoria para menor de edad",
+            "wrap": true,
+            "spacing": "Small",
+            "separator": true,
+            "size": "Medium",
+            "weight": "Bolder",
+            "color": "Dark"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                    "title": "•",
+                    "value": "Recibo de pago al Banco de la Nación por derecho de trámite (S/. 98.50), que consigne número de DNI del beneficiario."
+                },
+                {
+                    "title": "•",
+                    "value": "Presentar DNI con las respectivas constancias de sufragio. Asimismo, no deberá contar con ninguna multa electoral pendiente de pago."
+                },
+                {
+                    "title": "•",
+                    "value": "Exhibición de la constancia de cita (en formato digital o impresa)."
+                },
+                {
+                    "title": "•",
+                    "value": "Exhibición del DNI del padre o madre peruano o en caso de padre o madre extranjero, exhibición del Pasaporte o documento análogo con entrada legal al país, o Carné de Extranjería (con la Tasa Anual de Extranjería al día y Residencia/ permanencia vigente)."
+                },
+                {
+                    "title": "•",
+                    "value": "En caso de apoderado deberá exhibir su documento de identidad, Carta Poder con firma legalizada por el Consulado Peruano y certificada por el Ministerio de Relaciones Exteriores o apostillada o con firma legalizada ante notario peruano, según corresponda."
+                },
+                {
+                    "title": "•",
+                    "value": "Se requiere presencia física del beneficiario."
+                }
+            ]
+        }
+    ]
+}
